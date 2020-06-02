@@ -1,0 +1,14 @@
+uuid: fb0b63d9-aa80-4943-9388-2bc1a2e23bc2
+name: D8BLOG
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
