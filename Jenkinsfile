@@ -10,6 +10,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
+                sh 'composer install'
+                sh './vendor/bin/phpunit ./web/modules/custom'
             }
         }
         stage('Deploy') {
