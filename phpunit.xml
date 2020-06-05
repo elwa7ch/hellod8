@@ -38,22 +38,7 @@
     <env name="MINK_DRIVER_ARGS_WEBDRIVER" value=''/>
   </php>
   <testsuites>
-    <testsuite name="unit">
-      <file>./tests/TestSuites/UnitTestSuite.php</file>
-    </testsuite>
-    <testsuite name="kernel">
-      <file>./tests/TestSuites/KernelTestSuite.php</file>
-    </testsuite>
-    <testsuite name="functional">
-      <file>./tests/TestSuites/FunctionalTestSuite.php</file>
-    </testsuite>
-    <testsuite name="functional-javascript">
-      <file>./tests/TestSuites/FunctionalJavascriptTestSuite.php</file>
-    </testsuite>
-    <testsuite name="build">
-      <file>./tests/TestSuites/BuildTestSuite.php</file>
-    </testsuite>
-    <testsuite name="custom_modules">
+    <testsuite name="unit - custom modules">
       <file>./web/modules/custom</file>
     </testsuite>    
   </testsuites>
