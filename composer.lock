@@ -2628,7 +2628,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "8.9.1",
+            "version": "8.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -8008,7 +8008,7 @@
             "extra": {
                 "drupal": {
                     "version": "4.0.0",
-                    "datestamp": "1592918495",
+                    "datestamp": "1592918748",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
